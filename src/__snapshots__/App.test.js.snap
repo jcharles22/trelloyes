@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders the UI as expected 1`] = `
+<div
+  className="Card"
+>
+  <button>
+    delete
+  </button>
+  <h3>
+    first
+  </h3>
+  <p>
+    lorem ipsum
+  </p>
+</div>
+`;
+
+exports[`List component renders the UI as expected 1`] = `
+<section
+  className="List"
+>
+  <header
+    class="List-header"
+  >
+    <h2>
+      first
+    </h2>
+  </header>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <button>
+        delete
+      </button>
+      <h3 />
+      <p />
+    </div>
+    <button>
+      + Add Random Card
+    </button>
+  </div>
+</section>
+`;
